@@ -1,0 +1,27 @@
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
+/* Varibles */
+:root {
+  --clr-Soft-blue: hsl(215, 51%, 70%);
+  --clr-Cyan: hsl(178, 100%, 50%);
+  --clr-Very-dark-blue: #0d192b; /* (main BG)*/
+  --clr-dark-blue: #14253d; /*(card BG)*/
+  --clr-clear-dark-blue: hsl(215, 32%, 27%); /*(line)*/
+  --clr-White: hsl(0, 0%, 100%);
+  --ff-primary: "Roboto", sans-serif;
+}
+/* Global Variables */
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: var(--ff-primary);
+  font-size: 18px;
+  background: var(--clr-Very-dark-blue);
+  color: var(--clr-Soft-blue);
+}
